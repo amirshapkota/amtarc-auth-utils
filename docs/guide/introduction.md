@@ -1,10 +1,10 @@
 # Introduction
 
-## What is amtarc-auth-utils?
+## What is @amtarc/auth-utils?
 
-`amtarc-auth-utils` is an **enterprise-grade TypeScript library** that provides comprehensive authentication and authorization utilities for production applications.
+`@amtarc/auth-utils` is an **enterprise-grade TypeScript library** that provides comprehensive authentication and authorization utilities for production applications.
 
-Unlike full authentication frameworks, `amtarc-auth-utils` focuses on solving the complex, recurring patterns that enterprises face but aren't solved by standard auth providers.
+Unlike full authentication frameworks, `@amtarc/auth-utils` focuses on solving the complex, recurring patterns that enterprises face but aren't solved by standard auth providers.
 
 ## The Problem We Solve
 
@@ -17,7 +17,7 @@ Modern authentication frameworks like Auth.js, Better Auth, and Clerk do an exce
 - **Compliance**: Audit logging for GDPR, SOC 2, and other regulations
 - **Observability**: Metrics, tracing, and structured logging for production monitoring
 
-Building these features from scratch is time-consuming and error-prone. `amtarc-auth-utils` provides battle-tested implementations that you can integrate into any TypeScript application.
+Building these features from scratch is time-consuming and error-prone. `@amtarc/auth-utils` provides battle-tested implementations that you can integrate into any TypeScript application.
 
 ## Design Philosophy
 
@@ -31,10 +31,10 @@ Import only what you need. Every feature is tree-shakable to minimize bundle siz
 
 ```typescript
 // Import only session management
-import { createSession, validateSession } from '@amtarc-auth-utils/core/session';
+import { createSession, validateSession } from '@amtarc/auth-utils/session';
 
 // Or import everything
-import * as auth from '@amtarc-auth-utils/core';
+import * as auth from '@amtarc/auth-utils';
 ```
 
 ### 3. Type-Safe by Default
@@ -61,37 +61,37 @@ Features like caching, performance monitoring, and graceful error handling are b
 
 ## Core Packages
 
-### @amtarc-auth-utils/core
+### @amtarc/auth-utils
 
 Session management, guards, cookie utilities, and error handling.
 
 **Use for:** Session lifecycle, route protection, session validation
 
-### @amtarc-auth-utils/security
+### @amtarc/auth-utils-security
 
 CSRF protection, rate limiting, security headers, and encryption helpers.
 
 **Use for:** API security, brute-force prevention, compliance requirements
 
-### @amtarc-auth-utils/authorization
+### @amtarc/auth-utils-authorization
 
 RBAC, ABAC, resource permissions, and policy evaluation.
 
 **Use for:** Complex permission systems, multi-role applications
 
-### @amtarc-auth-utils/tokens
+### @amtarc/auth-utils-tokens
 
 JWT utilities, token validation, and refresh token patterns.
 
 **Use for:** Token-based authentication, API key management
 
-### @amtarc-auth-utils/multi-tenancy
+### @amtarc/auth-utils-multi-tenancy
 
 Tenant context, isolation, and switching.
 
 **Use for:** SaaS applications, multi-customer platforms
 
-### @amtarc-auth-utils/audit
+### @amtarc/auth-utils-audit
 
 Audit logging, compliance helpers, and security event tracking.
 

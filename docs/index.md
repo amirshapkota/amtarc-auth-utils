@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: amtarc-auth-utils
+  name: "@amtarc/auth-utils"
   text: Enterprise Authentication Utilities
   tagline: Production-ready, type-safe authentication and authorization utilities for TypeScript
   actions:
@@ -41,11 +41,11 @@ features:
 ## Quick Start
 
 ```bash
-pnpm add @amtarc-auth-utils/core
+pnpm add @amtarc/auth-utils
 ```
 
 ```typescript
-import { createSession, requireSession } from '@amtarc-auth-utils/core';
+import { createSession, requireSession } from '@amtarc/auth-utils';
 
 // Create a session
 const session = createSession('user-123', {
@@ -59,9 +59,9 @@ const handler = guard(async (session) => {
 });
 ```
 
-## Why amtarc-auth-utils?
+## Why @amtarc/auth-utils?
 
-While authentication frameworks like Auth.js and Better Auth handle the core authentication flow, `amtarc-auth-utils` provides the **enterprise-grade utilities** you need to build production applications:
+While authentication frameworks like Auth.js and Better Auth handle the core authentication flow, `@amtarc/auth-utils` provides the **enterprise-grade utilities** you need to build production applications:
 
 - **Advanced Session Management** - Multi-device sessions, fingerprinting, and rotation
 - **Flexible Authorization** - RBAC, ABAC, and resource-based permissions
@@ -72,13 +72,13 @@ While authentication frameworks like Auth.js and Better Auth handle the core aut
 
 ## Packages
 
-- **[@amtarc-auth-utils/core](./api/core)** - Session management and guards
-- **[@amtarc-auth-utils/security](./api/security)** - CSRF, rate limiting, headers
-- **[@amtarc-auth-utils/authorization](./api/authorization)** - RBAC, ABAC, permissions
-- **[@amtarc-auth-utils/tokens](./api/tokens)** - JWT utilities and token management
-- **[@amtarc-auth-utils/multi-tenancy](./api/multi-tenancy)** - Multi-tenant utilities
-- **[@amtarc-auth-utils/audit](./api/audit)** - Audit logging and compliance
-- **[@amtarc-auth-utils/testing](./api/testing)** - Testing utilities and mocks
+- **[@amtarc/auth-utils](./api/core)** - Session management and guards
+- **[@amtarc/auth-utils-security](./api/security)** - CSRF, rate limiting, headers
+- **[@amtarc/auth-utils-authorization](./api/authorization)** - RBAC, ABAC, permissions
+- **[@amtarc/auth-utils-tokens](./api/tokens)** - JWT utilities and token management
+- **[@amtarc/auth-utils-multi-tenancy](./api/multi-tenancy)** - Multi-tenant utilities
+- **[@amtarc/auth-utils-audit](./api/audit)** - Audit logging and compliance
+- **[@amtarc/auth-utils-testing](./api/testing)** - Testing utilities and mocks
 
 ## Framework Support
 

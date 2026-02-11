@@ -1,9 +1,9 @@
-# amtarc-auth-utils
+# @amtarc/auth-utils
 
 > Enterprise-grade authentication and authorization utilities for TypeScript
 
 [![CI](https://github.com/amtarc/amtarc-auth-utils/workflows/CI/badge.svg)](https://github.com/amtarc/amtarc-auth-utils/actions)
-[![npm version](https://img.shields.io/npm/v/@amtarc-auth-utils/core.svg)](https://www.npmjs.com/package/@amtarc-auth-utils/core)
+[![npm version](https://img.shields.io/npm/v/@amtarc/auth-utils.svg)](https://www.npmjs.com/package/@amtarc/auth-utils)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🚀 Features
@@ -17,23 +17,23 @@
 
 ## 📦 Packages
 
-- [`@amtarc-auth-utils/core`](./packages/core) - Core authentication and session management
-- [`@amtarc-auth-utils/security`](./packages/security) - CSRF, rate limiting, and security headers
-- [`@amtarc-auth-utils/authorization`](./packages/authorization) - RBAC, ABAC, and permission systems
-- [`@amtarc-auth-utils/tokens`](./packages/tokens) - JWT utilities and token management
-- [`@amtarc-auth-utils/multi-tenancy`](./packages/multi-tenancy) - Multi-tenant utilities
-- [`@amtarc-auth-utils/audit`](./packages/audit) - Audit logging and compliance
-- [`@amtarc-auth-utils/testing`](./packages/testing) - Testing utilities and mocks
-- [`@amtarc-auth-utils/observability`](./packages/observability) - Metrics and monitoring
+- [`@amtarc/auth-utils`](./packages/core) - Core authentication and session management
+- [`@amtarc/auth-utils-security`](./packages/security) - CSRF, rate limiting, and security headers
+- [`@amtarc/auth-utils-authorization`](./packages/authorization) - RBAC, ABAC, and permission systems
+- [`@amtarc/auth-utils-tokens`](./packages/tokens) - JWT utilities and token management
+- [`@amtarc/auth-utils-multi-tenancy`](./packages/multi-tenancy) - Multi-tenant utilities
+- [`@amtarc/auth-utils-audit`](./packages/audit) - Audit logging and compliance
+- [`@amtarc/auth-utils-testing`](./packages/testing) - Testing utilities and mocks
+- [`@amtarc/auth-utils-observability`](./packages/observability) - Metrics and monitoring
 
 ## 🏃 Quick Start
 
 ```bash
-pnpm add @amtarc-auth-utils/core
+pnpm add @amtarc/auth-utils
 ```
 
 ```typescript
-import { createSession, requireSession } from '@amtarc-auth-utils/core';
+import { createSession, requireSession } from '@amtarc/auth-utils';
 
 // Create a session
 const session = createSession('user-123', {

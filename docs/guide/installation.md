@@ -10,13 +10,13 @@
 
 ```bash
 # pnpm (recommended)
-pnpm add @amtarc-auth-utils/core
+pnpm add @amtarc/auth-utils
 
 # npm
-npm install @amtarc-auth-utils/core
+npm install @amtarc/auth-utils
 
 # yarn
-yarn add @amtarc-auth-utils/core
+yarn add @amtarc/auth-utils
 ```
 
 ## Install Additional Packages
@@ -25,22 +25,22 @@ Install only the packages you need:
 
 ```bash
 # Security utilities
-pnpm add @amtarc-auth-utils/security
+pnpm add @amtarc/auth-utils-security
 
 # Authorization (RBAC, ABAC)
-pnpm add @amtarc-auth-utils/authorization
+pnpm add @amtarc/auth-utils-authorization
 
 # Token management
-pnpm add @amtarc-auth-utils/tokens
+pnpm add @amtarc/auth-utils-tokens
 
 # Multi-tenancy
-pnpm add @amtarc-auth-utils/multi-tenancy
+pnpm add @amtarc/auth-utils-multi-tenancy
 
 # Audit logging
-pnpm add @amtarc-auth-utils/audit
+pnpm add @amtarc/auth-utils-audit
 
 # Testing utilities
-pnpm add -D @amtarc-auth-utils/testing
+pnpm add -D @amtarc/auth-utils-testing
 ```
 
 ## Framework Adapters
@@ -49,16 +49,16 @@ If you're using a specific framework, install the corresponding adapter:
 
 ```bash
 # Express
-pnpm add @amtarc-auth-utils/adapters-express
+pnpm add @amtarc/auth-utils-adapters-express
 
 # Next.js
-pnpm add @amtarc-auth-utils/adapters-nextjs
+pnpm add @amtarc/auth-utils-adapters-nextjs
 
 # Fastify
-pnpm add @amtarc-auth-utils/adapters-fastify
+pnpm add @amtarc/auth-utils-adapters-fastify
 
 # Hono
-pnpm add @amtarc-auth-utils/adapters-hono
+pnpm add @amtarc/auth-utils-adapters-hono
 ```
 
 ## TypeScript Configuration

@@ -4,14 +4,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@amtarc-auth-utils/core": ["./packages/core/src"],
-      "@amtarc-auth-utils/security": ["./packages/security/src"],
-      "@amtarc-auth-utils/authorization": ["./packages/authorization/src"],
-      "@amtarc-auth-utils/tokens": ["./packages/tokens/src"],
-      "@amtarc-auth-utils/multi-tenancy": ["./packages/multi-tenancy/src"],
-      "@amtarc-auth-utils/audit": ["./packages/audit/src"],
-      "@amtarc-auth-utils/testing": ["./packages/testing/src"],
-      "@amtarc-auth-utils/observability": ["./packages/observability/src"]
+      "@amtarc/auth-utils": ["./packages/core/src"],
+      "@amtarc/auth-utils-security": ["./packages/security/src"],
+      "@amtarc/auth-utils-authorization": ["./packages/authorization/src"],
+      "@amtarc/auth-utils-tokens": ["./packages/tokens/src"],
+      "@amtarc/auth-utils-multi-tenancy": ["./packages/multi-tenancy/src"],
+      "@amtarc/auth-utils-audit": ["./packages/audit/src"],
+      "@amtarc/auth-utils-testing": ["./packages/testing/src"],
+      "@amtarc/auth-utils-observability": ["./packages/observability/src"]
     }
   },
   "files": [],

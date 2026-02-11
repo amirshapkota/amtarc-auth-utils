@@ -1,11 +1,11 @@
 # Quick Start
 
-This guide will get you up and running with `amtarc-auth-utils` in minutes.
+This guide will get you up and running with `@amtarc/auth-utils` in minutes.
 
 ## Basic Session Management
 
 ```typescript
-import { createSession, validateSession } from '@amtarc-auth-utils/core';
+import { createSession, validateSession } from '@amtarc/auth-utils';
 
 // 1. Create a session after user authenticates
 const session = createSession('user-123', {
@@ -40,7 +40,7 @@ if (validation.shouldRefresh) {
 ## Using Guards
 
 ```typescript
-import { requireSession } from '@amtarc-auth-utils/core';
+import { requireSession } from '@amtarc/auth-utils';
 
 // Define how to get the current session
 async function getCurrentSession() {
@@ -77,7 +77,7 @@ try {
 
 ```typescript
 import express from 'express';
-import { requireSession } from '@amtarc-auth-utils/core';
+import { requireSession } from '@amtarc/auth-utils';
 
 const app = express();
 
@@ -109,7 +109,7 @@ app.get('/api/profile', async (req, res) => {
 ```typescript
 // app/api/profile/route.ts
 import { NextRequest, NextResponse } from 'next/server';
-import { requireSession } from '@amtarc-auth-utils/core';
+import { requireSession } from '@amtarc/auth-utils';
 import { getSessionFromCookie } from '@/lib/auth';
 
 export async function GET(request: NextRequest) {
@@ -134,7 +134,7 @@ export async function GET(request: NextRequest) {
 ## Custom User Type
 
 ```typescript
-import { User, Session, createSession } from '@amtarc-auth-utils/core';
+import { User, Session, createSession } from '@amtarc/auth-utils';
 
 // Extend the base User type
 interface MyUser extends User {
@@ -167,7 +167,7 @@ import {
   SessionExpiredError,
   AuthenticationError,
   AuthorizationError,
-} from '@amtarc-auth-utils/core';
+} from '@amtarc/auth-utils';
 
 try {
   const result = await protectedHandler();
