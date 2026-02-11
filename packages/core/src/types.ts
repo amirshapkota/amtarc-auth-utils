@@ -1,5 +1,5 @@
 /**
- * Core type definitions for amtarc-auth-utils
+ * Core type definitions for @amtarc/auth-utils
  */
 
 /**

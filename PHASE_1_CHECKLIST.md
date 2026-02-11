@@ -225,7 +225,7 @@ pnpm --filter docs build
 ### B. Verify package.json
 
 Each package should have:
-- ✅ Correct name: `@amtarc-auth-utils/core`
+- ✅ Correct name: `@amtarc/auth-utils`
 - ✅ Version: `1.0.0` (or `0.1.0` for alpha)
 - ✅ License: `MIT`
 - ✅ Repository URL
@@ -301,8 +301,8 @@ Run through this checklist before starting Phase 2:
 
 ```bash
 # Development
-pnpm --filter @amtarc-auth-utils/core dev     # Watch mode for core
-pnpm --filter @amtarc-auth-utils/core test    # Test watch mode
+pnpm --filter @amtarc/auth-utils dev     # Watch mode for core
+pnpm --filter @amtarc/auth-utils test    # Test watch mode
 
 # Testing
 pnpm test                  # All packages in watch mode

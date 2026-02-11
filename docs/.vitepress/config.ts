@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: 'amtarc-auth-utils',
+  title: '@amtarc/auth-utils',
   description: 'Enterprise-grade authentication utilities for TypeScript',
 
   ignoreDeadLinks: true,
@@ -41,8 +41,8 @@ export default defineConfig({
         {
           text: 'Packages',
           items: [
-            { text: '@amtarc-auth-utils/core', link: '/api/core' },
-            { text: '@amtarc-auth-utils/security', link: '/api/security' },
+            { text: '@amtarc/auth-utils', link: '/api/core' },
+            { text: '@amtarc/auth-utils-security', link: '/api/security' },
           ],
         },
       ],

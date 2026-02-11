@@ -1,5 +1,5 @@
 /**
- * @amtarc-auth-utils/core
+ * @amtarc/auth-utils
  *
  * Enterprise-grade authentication and session management utilities
  */

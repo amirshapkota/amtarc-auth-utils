@@ -1,11 +1,11 @@
-# @amtarc-auth-utils/core
+# @amtarc/auth-utils
 
 > Core authentication and session management utilities
 
 ## Installation
 
 ```bash
-pnpm add @amtarc-auth-utils/core
+pnpm add @amtarc/auth-utils
 ```
 
 ## Features
@@ -19,7 +19,7 @@ pnpm add @amtarc-auth-utils/core
 ## Quick Start
 
 ```typescript
-import { createSession, validateSession, requireSession } from '@amtarc-auth-utils/core';
+import { createSession, validateSession, requireSession } from '@amtarc/auth-utils';
 
 // Create a session
 const session = createSession('user-123', {
