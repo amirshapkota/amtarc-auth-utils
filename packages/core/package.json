@@ -1,6 +1,6 @@
 {
   "name": "@amtarc/auth-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core authentication and session management utilities",
   "type": "module",
   "exports": {
